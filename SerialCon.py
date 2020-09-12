@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-import serial,os,sys
+import serial
 from time import sleep,time
 from threading import Thread
 import serial.tools.list_ports as port_list
@@ -22,7 +22,6 @@ class Serialcon:
      self.window.title("SerialCon")
      self.window.geometry("500x500")
      self.window.resizable(False, False)
-     datafile = "logo2.ico" 
      self.window.iconbitmap("logo2.ico")
      self.window.configure(bg='black')
      self.cv = StringVar()

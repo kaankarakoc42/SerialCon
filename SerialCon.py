@@ -40,7 +40,6 @@ class Serialcon:
      self.cbv = StringVar()
      self.cbv.set("waiting")
      self.cb=Label(self.window,textvariable=self.cbv,bg = "black",activebackground="gray",fg="yellow",highlightthickness=0,font="Helvetica 15 bold")
-     self.i=0
      self.run=True
      self.rbv=True
      self.vcrun=True
